@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Miroslav Kyurchev"]
   spec.email         = ["mkyurchev@gmail.com"]
   spec.description   = "Hint.css is a tooltip library written in SASS which uses only HTML/CSS to create simple tooltips."
-  spec.summary       = "Tooltip library for Compass."
-  spec.homepage      = "http://kushagragour.in/lab/hint/"
+  spec.summary       = "A tooltip library in CSS ready to use with Rails or Compass."
+  spec.homepage      = "http://github.com/mkyurchev/hint"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -20,7 +20,8 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "compass", ">= 0.12.2"
+  spec.add_development_dependency "sass-rails", ">= 3.2"
 
-  spec.add_runtime_dependency "compass", ">= 0.12.2"
   spec.add_runtime_dependency "sass", ">= 3.2.0"
 end

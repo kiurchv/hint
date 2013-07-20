@@ -1,2 +1,5 @@
-# Make sure you list all the project template files here in the manifest.
-stylesheet 'screen.sass', :media => 'screen, projection'
+description "Tooltip library for Compass."
+
+stylesheet 'screen.scss', :media => 'screen, projection'
+
+basedir = '../../vendor/assets'
